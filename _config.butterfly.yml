@@ -9,7 +9,6 @@ menu:
  分类: /categories/ || fa fa-folder-open
  留言板: /messageboard/ || fa fa-paper-plane
  友链: /link/ || fa fa-link
- 日志: /timeline/ || fa fa-bell
  菜单 || fa fa-list:
   - 关于 || /about/ || fa fa-sitemap
   - myself || /myself/ || fa fa-id-card
@@ -26,7 +25,7 @@ code_word_wrap: false
 # copy settings
 # copyright: Add the copyright information after copied content (複製的內容後面加上版權信息)
 copy:
-  enable: true
+  enable: false
   copyright:
     enable: false
     limit_count: 50
@@ -50,9 +49,10 @@ algolia_search:
 
 # Local search
 local_search:
-  enable: true
-  preload: false
-  CDN:
+ enable: true
+ labels:
+  input_placeholder: 想找什么呢？～
+  hits_empty: "We didn't find any results for the search: ${query}" # 如果没有查到内容相关内容显示
 
 # Math (數學)
 # --------------------------------------
@@ -589,8 +589,8 @@ blog_title_font:
 # The setting of divider icon (水平分隔線圖標設置)
 hr_icon:
   enable: true
-  icon: # the unicode value of Font Awesome icon, such as '\3423'
-  icon-top:
+  icon: '\f197' # the unicode value of Font Awesome icon # the unicode value of Font Awesome icon, such as '\3423'
+  icon-top: -10px
 
 # the subtitle on homepage (主頁subtitle)
 subtitle:
