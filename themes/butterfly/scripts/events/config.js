@@ -28,11 +28,11 @@ hexo.extend.filter.register('before_generate', () => {
 
   const internalSrcLocal = {
     main_css: '/css/index.css',
-    main: '/js/main.js',
-    utils: '/js/utils.js',
-    translate: '/js/tw_cn.js',
-    local_search: '/js/search/local-search.js',
-    algolia_js: '/js/search/algolia.js',
+    main: 'https://cdn.jsdelivr.net/gh//AllureCode/snailResource@v1.0.0/source/js/main.js',
+    utils: 'https://cdn.jsdelivr.net/gh//AllureCode/snailResource@v1.0.0/source/js/utils.js',
+    translate: 'https://cdn.jsdelivr.net/gh//AllureCode/snailResource@v1.0.0/source/js/tw_cn.js',
+    local_search: 'https://cdn.jsdelivr.net/gh//AllureCode/snailResource@v1.0.0/source/js/search/local-search.js',
+    algolia_js: 'https://cdn.jsdelivr.net/gh//AllureCode/snailResource@v1.0.0/source/js/search/algolia.js',
   }
 
   const thirdPartySrcCDN = {

@@ -3,17 +3,17 @@
 ## Source: https://github.com/hexojs/hexo/
 
 # Site
-title: Hexo
+title: Snail
 subtitle: ''
-description: ''
+description: '路漫漫其修远兮、吾将上下而求索'
 keywords:
-author: John Doe
-language: en
+author: XH.YQ
+language: zh-CN
 timezone: ''
 
 # URL
 ## Set your site url here. For example, if you use GitHub Page, set url as 'https://username.github.io/project'
-url: http://example.com
+url: https://github.com/AllureCode/
 permalink: :year/:month/:day/:title/
 permalink_defaults:
 pretty_urls:
@@ -45,10 +45,10 @@ relative_link: false
 future: true
 highlight:
   enable: true
-  line_number: true
+  line_number: false
   auto_detect: false
   tab_replace: ''
-  wrap: true
+  wrap: truefavicon
   hljs: false
 prismjs:
   enable: false
