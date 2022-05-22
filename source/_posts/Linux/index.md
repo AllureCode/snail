@@ -64,7 +64,25 @@ quit;
 //重新启动mysql
 service mysql restart
 ```
+### 远程无法连接mysql解决方案
 
+**1.**`进入到mysql配置文件mysqld.conf中 路径： /etc/mysql/mysql.conf.d`
+
+**2.**`找到bind-address = 127.0.0.1 改为bind-address = 0.0.0.0`
+
+**3.**`重启mysql  sudo systemctl restart mysql.service`
+
+`注意：`如果上述步骤配置后仍无法访问则进行下面步骤
+
+**1.**关闭系统防火墙：
+
+```bash
+systemctl start firewalld # 开启防火墙
+systemctl stop firewalld  # 关闭防火墙
+systemctl status firewalld  #检查防火墙状态
+```
+
+**2.**防火墙关闭后如果还是无法访问，则需要在配置腾讯云服务器的安全组开放3306端口，找到你自己的服务器，进入之后找到防火墙进行添加规则，选择MYSQL即可。
 ## 安装JDK
 
 ```

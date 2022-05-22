@@ -1,7 +1,7 @@
 
 ---
 title: JVM笔记
-cover: https://images.xianhu.wang/user.jpeg
+cover: https://images.xianhu.wang/home.jpg
 tags:
   - JVM  
 categories:
