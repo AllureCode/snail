@@ -294,16 +294,16 @@ livere:
 # gitalk
 # https://github.com/gitalk/gitalk
 gitalk:
-  client_id: f4ad63b2c31e0bd42a01
-  client_secret: 4c4cfc360b3cbc23993e4561b40d5dd950fc42a6
-  repo:  hexoBlogComment
-  owner: AllureCode
-  admin: AllureCode
+  client_id: f4ad63b2c31e0bd42a01 
+  client_secret: 4c4cfc360b3cbc23993e4561b40d5dd950fc42a6 
+  repo:  hexoBlogComment 
+  owner: AllureCode 
+  admin: AllureCode 
   language: zh-CN # en, zh-CN, zh-TW, es-ES, fr, ru
   perPage: 10 # Pagination size, with maximum 100.
   distractionFreeMode: false # Facebook-like distraction free mode.
   pagerDirection: last # Comment sorting direction, available values are last and first.
-  createIssueManually: false # G
+  createIssueManually: true # G
   option: 
 
 # valine

@@ -1,13 +1,12 @@
 ---
-title: Ubuntu 20.04 LTS 安装mysql 8.0+、redis、jdk
+title: Ubuntu20.04安装mysql、redis、jdk
 tags:
  - Linux
 categories:
  - Linux
 ---
 
-# Ubuntu 20.04 LTS 安装mysql 8.0+、redis、jdk
-
+# Ubuntu 20.04 LTS 安装mysql、redis、jdk
 ## 使用apt命令
 
 > Debian Linux发行版中的APT软件包管理工具
