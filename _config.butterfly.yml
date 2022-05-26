@@ -7,11 +7,13 @@ menu:
   归档: /archives/ || fa fa-archive
   标签: /tags/ || fa fa-tags
   分类: /categories/ || fa fa-folder-open
-  留言板: /messageboard/ || fa fa-paper-plane
   友链: /link/ || fa fa-link
-  菜单 || fa fa-list:
-     关于: /about/ || fa fa-sitemap
-     myself: /myself/ || fa fa-id-card
+  留言板: /messageboard/ || fa fa-paper-plane
+  随记: /about/ ||  fa fa-list
+  myself: /myself/ || fa fa-id-card
+  # 菜单 || fa fa-list:
+  #    关于: /about/ || fa fa-sitemap
+  #    myself: /myself/ || fa fa-id-card
 # Code Blocks (代碼相關)
 # --------------------------------------
 

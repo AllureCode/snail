@@ -2,6 +2,7 @@
 title: Spring面试高频题目
 tags:
   - Spring 
+  - SpringBoot
 categories:
   - 程序员的"春天"
 ---
