@@ -69,7 +69,7 @@ public class PeopleDTO {
     private String userAddress;
 
     @Min(value = 18, message = "年龄不得小于18岁")
-    private String userAge;
+    private Integer userAge;
 
 }
 ```
