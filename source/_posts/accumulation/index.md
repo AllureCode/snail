@@ -10,7 +10,7 @@ categories:
 ## 批量删除redis中指定key
 
 ```sh
-redis-cli -h 10.59.6.54 -p 6379 -a B213547b69b13224 -n 0 keys "nlas:*" | xargs -r -t -n1 redis-cli -h 10.59.6.54 -p 6379 -a B213547b69b13224 -n  0 del
+redis-cli -h yourhost -p 6379 -a password -n 0 keys "nlas:*" | xargs -r -t -n1 redis-cli -h yourhost -p 6379 -a password -n  0 del
 
 redis-cli 命令解释：
 -h　　host
