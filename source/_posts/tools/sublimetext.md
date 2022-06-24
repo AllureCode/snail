@@ -1,6 +1,6 @@
 ---
 title: sublimetext-主题安装
-cover: https://images.xianhu.wang/22060906.jpg
+cover: https://images.xianhu.wang/2022062406.jpg
 date:  2022-06-24 09:43:10
 updated: 2022-06-24 09:43:10
 tags:
