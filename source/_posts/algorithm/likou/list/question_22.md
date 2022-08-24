@@ -1,6 +1,6 @@
 ---
 title: leetcode-question_22
-cover: https://images.xianhu.wang/2022081901.jpg
+cover: https://images.xianhu.wang/20220824.jpg
 date:  2022-08-23 14:25:00
 updated: 2022-08-23 17:25:10
 tags:

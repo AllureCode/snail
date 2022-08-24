@@ -1,6 +1,6 @@
 ---
 title: leetcode-question_303
-cover: https://images.xianhu.wang/2022081901.jpg
+cover: https://images.xianhu.wang/20220824.jpg
 date:  2022-08-19 17:10:10
 updated: 2022-08-19 17:15:10
 tags:
