@@ -1,6 +1,6 @@
 ---
 title:  自然语言检索-双数组
-cover: https://images.xianhu.wang/22060906.jpg
+cover: https://images.xianhu.wang/20220907.jpg
 date:  2022-09-07 14:39:10
 updated: 2022-09-07 14:50:00
 tags:
